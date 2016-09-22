@@ -1,0 +1,35 @@
+---
+output: pdf_document
+---
+## Zachary S.L. Foster
+
+### Educaton
+
+**Oregon State University** *2008 - 2012*
+
+* Bachelor of Science in Microbiology 
+* Bachelor of Science in Botany 
+* Minor in Chemistry 
+
+### Employment
+
+**Bioinformatics Programmer** *2009 - 2012*
+
+* Worked for Aaron Liston at Oregon State University
+* Created miscellaneous scripts to process genetic data 
+
+**Craduate Research Assistant** *2013 - Now*
+
+* Worked for Niklaus Grunwald at the USDA Agricultural Research Service
+* Conducted independent research on the diversity of oomycetes in soil and roots of rhododendron using high throughput sequencing, including field work, laboratory work, and bioinformatic analysis.
+* Helped manage the lab webpage
+
+### Teaching 
+
+* Graduate teaching assistant for Cell and Molecular Biology (BI314) class at Oregon Sate University *2015*
+* Co-lead a workshop on reproducible research in R at the 2016 American Phytopathological Society annual metting. *2016*
+
+### Volunteering
+
+* Taught K-12 Students during "Discovery Days" at Oregon State University on the following dates: October 2009, April 2011, November 2011, November 2015, April 2016, February 2015, June 2015
+* Created educational activities for "Discovery Days"
