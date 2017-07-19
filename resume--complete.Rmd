@@ -40,3 +40,9 @@ output: word_document
 * Won second place in the VISTAS Ecology Visualization Contest hosted by Evergreen State College, Washington (2016)
 * Won best lightning talk at Spring CGRB conference at Oregon State University (2017)
 * Won best poster at the OMBI Microbiome Research Forum (2017)
+
+### Grants
+
+* Awarded a travel grant of $1000 to attend the NSF Graduate Data Science Workshop in 2016
+* Awarded the Anita Summers travel grant in 2016 for $1000
+* Awarded the Anita Summers travel grant in 2017 for $1000
