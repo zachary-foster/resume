@@ -40,6 +40,7 @@ output: word_document
 * Won second place in the VISTAS Ecology Visualization Contest hosted by Evergreen State College, Washington (2016)
 * Won best lightning talk at Spring CGRB conference at Oregon State University (2017)
 * Won best poster at the OMBI Microbiome Research Forum (2017)
+* Won a poster award from the Phytobiomes journal when attending the 2017 APS conference.
 
 ### Grants
 
