@@ -1,0 +1,56 @@
+---
+output:
+  pdf_document: default
+---
+# Zachary S. L. Foster
+
+## Education
+
+**Oregon State University** *2008 - 2012*
+
+* Bachelor of Science in Microbiology 
+* Bachelor of Science in Botany 
+* Minor in Chemistry 
+
+## Employment
+
+**Bioinformatics Programmer** *2009 - 2012*
+
+* Worked for Aaron Liston at Oregon State University
+* Created miscellaneous scripts to process genetic data 
+
+**Graduate Research Assistant** *2013 - Now*
+
+* Worked for Niklaus Grunwald at the USDA Agricultural Research Service
+* Conducted independent research on the diversity of oomycetes in soil and roots of rhododendron using high throughput sequencing, including field work, laboratory work, and bioinformatic analysis
+* Helped manage the lab webpage
+* Created computational tools in R for taxonomic data analysis related to metagenomics
+
+## Publications
+
+* Straub, Shannon CK, Mark Fishbein, Tatyana Livshultz, Zachary Foster, Matthew Parks, Kevin Weitemier, Richard C. Cronn, and Aaron Liston. "Building a model: developing genomic resources for common milkweed (Asclepias syriaca) with low coverage genome sequencing." *BMC genomics* 12, no. 1 (2011): 211.
+* Foster, Zachary SL, Thomas J. Sharpton, and Niklaus J. Grünwald. "Metacoder: An R package for visualization and manipulation of community taxonomic diversity data." *PLoS computational biology* 13, no. 2 (2017): e1005404.
+
+## Teaching 
+
+* Graduate teaching assistant for Cell and Molecular Biology (BI314) class at Oregon Sate University (2015)
+* Co-lead a workshop on reproducible research in R at the 2016 American Phytopathological Society annual meeting (2016)
+
+## Awards
+
+* Won second place in the VISTAS Ecology Visualization Contest hosted by Evergreen State College, Washington (2016)
+* Won best lightning talk at Spring CGRB conference at Oregon State University (2017)
+* Won best poster at the OMBI Microbiome Research Forum (2017)
+* Won phytobiomes poster award at the Annual Meeting of the American Phytopathological Society (2017)
+
+## Grants
+
+* Awarded a travel grant of $1000 to attend the NSF Graduate Data Science Workshop (2016)
+* Awarded the Anita Summers travel grant for $1000 (2016)
+* Awarded the Anita Summers travel grant for $1000 (2017)
+
+## Volunteering
+
+* Taught K-12 Students during "Discovery Days" at Oregon State University on the following dates: October 2009, April 2011, November 2011, November 2015, April 2016, February 2015, June 2015, November 2016, May 2017
+* Created educational activities for "Discovery Days"
+* Planted early blue violet at Nestucca Bay National Wildlife refuge for reintroduction of the endangered Oregon silverspot butterfly (2016)
