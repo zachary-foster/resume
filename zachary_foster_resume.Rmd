@@ -30,11 +30,14 @@ output:
 
 * Straub, Shannon CK, Mark Fishbein, Tatyana Livshultz, Zachary Foster, Matthew Parks, Kevin Weitemier, Richard C. Cronn, and Aaron Liston. "Building a model: developing genomic resources for common milkweed (Asclepias syriaca) with low coverage genome sequencing." *BMC genomics* 12, no. 1 (2011): 211.
 * Foster, Zachary SL, Thomas J. Sharpton, and Niklaus J. Grünwald. "Metacoder: An R package for visualization and manipulation of community taxonomic diversity data." *PLoS computational biology* 13, no. 2 (2017): e1005404.
+* Weiland, Jerry, Carolyn Scagel, Nik Grunwald, Val Fieland, Zach Foster, Luisa Santamaria, and Gilbert Uribe. "Soilborne diseases of nursery crops."
+
 
 ## Teaching 
 
 * Graduate teaching assistant for Cell and Molecular Biology (BI314) class at Oregon Sate University (2015)
 * Co-lead a workshop on reproducible research in R at the 2016 American Phytopathological Society annual meeting (2016)
+* Graduate teaching assistant for Biology (BI211) class at Oregon Sate University (2017)
 
 ## Awards
 
