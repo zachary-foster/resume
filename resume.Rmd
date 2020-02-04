@@ -25,8 +25,8 @@ library(dplyr)
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, 
-  "Bachelor of Science in Microbiology with Minor in Chemistry", "2008-2012", "Oregon State University", "Corvallis, Oregon, United States",
-  "Bachelor of Science in Botany with Minor in Chemistry", "2008-2012", "Oregon State University", "Corvallis, Oregon, United States", 
+  "Bachelor of Science in Microbiology with a Minor in Chemistry", "2008-2012", "Oregon State University", "Corvallis, Oregon, United States",
+  "Bachelor of Science in Botany with a Minor in Chemistry", "2008-2012", "Oregon State University", "Corvallis, Oregon, United States", 
   "PhD in Molecular and Cellular Biology", "2013-Present", "Oregon State University", "Corvallis, Oregon, United States",
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
@@ -38,8 +38,8 @@ tribble(
 library(tibble)
 tribble(
   ~ Job, ~ Year, ~ Institution, ~ Where,
-  "Bioinformatics Programmer", "2009-2012", "Oregon State University", "Corvallis, Oregon, United States",
-  "Graduate Research Assistant", "2013-Present", "Oregon State University", "Corvallis, Oregon, United States",
+  "Bioinformatics programmer", "2009-2012", "Oregon State University", "Corvallis, Oregon, United States",
+  "Graduate research assistant", "2013-Present", "Oregon State University", "Corvallis, Oregon, United States",
 ) %>% 
   detailed_entries(Job, Year, Institution, Where)
 ```
@@ -47,7 +47,7 @@ tribble(
 
 # Teaching
 
-I have lead and created the content for workshops for scientific meetings and taught the lab/recitation portion of classes.
+I have lead and created the content for workshops given at scientific meetings and taught the lab portion of classes.
 
 ### Classes
 
@@ -136,7 +136,7 @@ tribble(
 tribble(
   ~Year, ~Desc, ~ Institution,
   "2009-2017", 'Taught K-12 Students during "Discovery Days" at nine events and created educational games', "Oregon State University",
-  "2016", "Planted early blue violet at Nestucca Bay National Wildlife refuge for reintroduction of the endangered Oregon silverspot butterfly.", "Institute for Applied Ecology",
+  "2016", "Planted early blue violet at Nestucca Bay National Wildlife refuge for reintroduction of the endangered Oregon silverspot butterfly", "Institute for Applied Ecology",
 ) %>% 
   brief_entries(when = Year, what = Desc, with = Institution)
 ``` 
@@ -149,13 +149,14 @@ I have diverse abilities and enjoy learning new skills.
 tribble(
   ~Type, ~Desc,
   "Programming", "I am an expert in R programming and package development. I also have experience in Python, C++, PHP, and C#.", 
-  "Web design", "I have created and maintained websites using Rmarkdown and Drupal.", 
-  "2D/3D graphics", "I can effectively create and edit raster graphics (Gimp), vector graphics (Inkscape), and 3D models (Blender, Meshroom). I am also experienced in digital photography using DSLRs.", 
+  "Bioinformatics", "I have extensive experience analyzing biological data using programming languages and shell-scripting on Linux high-performance computing clusters and personal computers.", 
   "Reproducible research", "I can create fully scripted, self-contained, and version-controlled analysis workflows using Rmarkdown that generate websites containing all descriptions, code, and publication-ready graphics.", 
   "Version control", "I have extensive experience using Git and Github.", 
-  "Bioinformatics", "I have extensive experience analyzing biological data using programming languages and shell-scripting on Linux high-performance computing clusters and personal computers.", 
   "Molecular biology", "I have experience extracting DNA from diverse sample types, quantifying DNA, running gels, conducting PCR, and culturing microorganisms.", 
   "Field research", "I have planned, led, and helped conduct field research in natural and agricultural settings.", 
+  "Web design", "I have created and maintained websites using Rmarkdown and Drupal.", 
+  "2D/3D graphics", "I can effectively create and edit raster graphics (Gimp), vector graphics (Inkscape), and 3D models (Blender, Meshroom). I am also experienced in digital photography using DSLRs.", 
+  "Teaching", "I have experience teaching people of all ages a variety of subjects and have created physical and online educational resources.", 
 ) %>% 
   detailed_entries(when = Type, what = Desc)
 ```
