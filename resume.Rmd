@@ -1,7 +1,7 @@
 ---
 name: Zachary
 surname: S.L. Foster
-position: "PhD Graduate Student"
+position: "PhD Candidate"
 address: "Oregon State University, Corvallis Oregon"
 phone: +1 503 559 9772
 email: "zacharyfoster1989@gmail.com"
@@ -27,7 +27,7 @@ tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, 
   "Bachelor of Science in Microbiology with a Minor in Chemistry", "2008-2012", "Oregon State University", "Corvallis, Oregon, United States",
   "Bachelor of Science in Botany with a Minor in Chemistry", "2008-2012", "Oregon State University", "Corvallis, Oregon, United States", 
-  "PhD in Molecular and Cellular Biology", "2013-Present", "Oregon State University", "Corvallis, Oregon, United States",
+  "PhD in Molecular and Cellular Biology (Expected July 2020)", "2013-Present", "Oregon State University", "Corvallis, Oregon, United States",
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
@@ -81,8 +81,8 @@ I have won awards for research results, talks, and posters.
 tribble(
   ~Year, ~Desc, ~ Institution,
   2016, "Second place in the VISTAS Ecology Visualization Contest", "Evergreen State College",
-  2017, "Best lightning talk", "Spring CGRB conference, Oregon State University",
-  2017, "Best poster", "OMBI Microbiome Research Forum, Oregon State University",
+  2017, "Best lightning talk", "Spring Center for Genome Research and Biocomputing conference, Oregon State University",
+  2017, "Best poster", "Microbiome Research Initiative (OMBI) Forum, Oregon State University",
   2017, "Phytobiomes journal poster award", "American Phytopathological Society annual meeting",
 ) %>% 
   brief_entries(when = Year, what = Desc, with = Institution)
@@ -130,13 +130,14 @@ tribble(
   brief_entries(when = Year, what = Desc, with = Institution)
 ``` 
 
-# Volunteering
+# Service
 
 ```{r}
 tribble(
   ~Year, ~Desc, ~ Institution,
   "2009-2017", 'Taught K-12 Students during "Discovery Days" at nine events and created educational games', "Oregon State University",
   "2016", "Planted early blue violet at Nestucca Bay National Wildlife refuge for reintroduction of the endangered Oregon silverspot butterfly", "Institute for Applied Ecology",
+  "2020", "Planted native shrubs and trees at Powell Butte Nature Park, Portland, Oregon", "The Nature Conservancy"
 ) %>% 
   brief_entries(when = Year, what = Desc, with = Institution)
 ``` 
@@ -158,7 +159,7 @@ tribble(
   "2D/3D graphics", "I can effectively create and edit raster graphics (Gimp), vector graphics (Inkscape), and 3D models (Blender, Meshroom). I am also experienced in digital photography using DSLRs.", 
   "Teaching", "I have experience teaching people of all ages a variety of subjects and have created physical and online educational resources.", 
 ) %>% 
-  detailed_entries(when = Type, what = Desc)
+  detailed_entries(when = Type, what = Desc, with = NA_character_, where = NA_character_)
 ```
 
 # Selected products
