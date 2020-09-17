@@ -1,7 +1,7 @@
 ---
 name: Zachary
 surname: S.L. Foster
-position: "PhD Candidate"
+position: "USDA Research Plant Pathologist"
 address: "Oregon State University, Corvallis Oregon"
 phone: +1 503 559 9772
 email: "zacharyfoster1989@gmail.com"
@@ -26,8 +26,8 @@ library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where, 
   "Bachelor of Science in Microbiology with a Minor in Chemistry", "2008-2012", "Oregon State University", "Corvallis, Oregon, United States",
-  "Bachelor of Science in Botany with a Minor in Chemistry", "2008-2012", "Oregon State University", "Corvallis, Oregon, United States", 
-  "PhD in Molecular and Cellular Biology (Expected July 2020)", "2013-Present", "Oregon State University", "Corvallis, Oregon, United States",
+  "Bachelor of Science in Botany", "2008-2012", "Oregon State University", "Corvallis, Oregon, United States", 
+  "PhD in Molecular and Cellular Biology", "2012-2020", "Oregon State University", "Corvallis, Oregon, United States",
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
@@ -39,7 +39,8 @@ library(tibble)
 tribble(
   ~ Job, ~ Year, ~ Institution, ~ Where,
   "Bioinformatics programmer", "2009-2012", "Oregon State University", "Corvallis, Oregon, United States",
-  "Graduate research assistant", "2013-Present", "Oregon State University", "Corvallis, Oregon, United States",
+  "Graduate research assistant", "2012-2020", "Oregon State University", "Corvallis, Oregon, United States",
+  "USDA Research Plant Pathologist", "2020-current", "USDA, ARS, Horticultural Crops Research Unit", "Corvallis, Oregon, United States",
 ) %>% 
   detailed_entries(Job, Year, Institution, Where)
 ```
