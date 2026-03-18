@@ -1,0 +1,24 @@
+---
+title: "Profile parts"
+output: html_document
+date: "2023-11-01"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## About (For a linkedin-like site)
+
+I have over 14 years of experience in data analysis and software development as well as extensive formal education in microbiology, botany, and chemistry.
+My areas of expertise include R and Python package development and maintenance, microbial ecology and metabarcoding, linux system administration, development of complex data analysis pipelines, creation of online educational material and documentation, reproducible data analysis, website creation and maintenance, and the development of molecular pathogen detection techniques.
+In addition, I have diverse skills that I have picked up from hobbies over the years, including 3d modeling and advanced photography techniques such as photogrammetry, focus stacking, and the creation of HDRIs.
+
+Although the focus of my work so far is biological research and data analysis, I have also a great interest in education that I have tried to incorporate where possible.
+I have created, planned, and led international workshops teaching data analysis techniques to graduate students and scientists.
+As both a undergraduate teaching assistant and graduate teaching assistant, I assisted or led the lab/recitation portion of university classes.
+I have also volunteered for events that educate high school students about science. 
+
+I advocate for the use of free and open source software whenever possible and all of the software I have created is free and open source.
+Similarly, all educational resources I have created are released free online, as is the source code used to create them.
+My hope is that free open source tools for essential tasks and free educational resources can help lower the barriers to prosperity experienced by poor and historically marginalized people worldwide.
