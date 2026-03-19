@@ -1,11 +1,11 @@
 ---
 name: Zachary
 surname: S.L. Foster
-position: "USDA Postdoctoral Researcher"
-address: "Corvallis, Oregon"
+position: "Postdoctoral Researcher"
+address: "810 NW 23rd St, Corvallis, Oregon"
 phone: +1 503 559 9772
 email: "zacharyfoster1989@gmail.com"
-GitHub: zachary-foster
+github: zachary-foster
 linkedin: zachary-foster-251a5777
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::hyndman
@@ -52,13 +52,13 @@ I have diverse abilities and enjoy learning new skills.
 ```{r}
 tribble(
   ~Type, ~Desc,
-  "Programming", "I am an expert in R and Python programming and package development. I also have experience in C++, JavaScript, PHP, C#, HTML, CSS, Java, Groovy, Nextflow, Snakemake, and BASH scripting.", 
-  "Software development", "I have experience in industry standard techniques including version control (git), parallel programming, unit testing, performance profiling, code coverage profiling, CI/CD workflows (GitHub Actions), and containerization (Docker, Singularity, Conda).",
-  "Bioinformatics", "I have extensive experience analyzing biological data using programming languages and shell-scripting on Linux high-performance computing clusters and personal computers.", 
-  "Reproducible research", "I can create fully scripted, self-contained, and version-controlled analysis workflows that generate HTML/PDF output containing all descriptions, code, and publication-ready graphics.", 
+  "Programming", "I am an expert in R, Python, and Nextflow programming and software development. I also have experience in Bash, JavaScript, HTML, CSS, Java, Groovy, Snakemake, C#, C++, Perl, and PHP.", 
+  "Software development", "I have experience in industry standard techniques including version control (Git), parallel programming, unit testing, performance profiling, code coverage profiling, CI/CD workflows (GitHub Actions), and containerization (Docker, Singularity, Conda).",
+  "Bioinformatics", "I have extensive experience analyzing next generation sequencing data using programming languages and shell-scripting on high-performance computing clusters and personal computers. I use Linux daily and am comfortable administering Linux servers.", 
+  "Reproducible research", "I can create fully scripted, self-contained, and version-controlled analysis workflows that generate HTML/PDF reports containing descriptions, code, and publication-ready graphics.", 
   "Molecular biology", "I have experience with high-throughput sequencing, extracting DNA from diverse sample types, quantifying DNA, running gels, conducting PCR, and culturing microorganisms.", 
-  "Teaching/Mentoring", "I have experience teaching people of all ages a variety of subjects and have created physical and online educational resources. I have also mentored many undergraduate research assistants working under my supervision.",
   "Communication", "I have published manuscripts in high-impact journals, written extensive online docmentation, and presented my work at many conferences to a diverse audience.",
+  "Teaching/Mentoring", "I have experience teaching people of all ages a variety of subjects and have created physical and online educational resources. I have also mentored many undergraduate research assistants working under my supervision.",
   "Field research", "I have planned, led, and helped conduct field research in natural and agricultural settings.", 
   "Web design", "I have created and maintained websites and managed web servers.", 
   "2D/3D graphics", "I can effectively create and edit raster graphics (Gimp), vector graphics (Inkscape), and 3D models (Blender, Meshroom, Freecad). I am also experienced in advanced digital photography techniques, including photogrammetry, focus stacking, and the creation of HDRIs.", 
