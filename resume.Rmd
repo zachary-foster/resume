@@ -19,6 +19,46 @@ library(dplyr)
 ```
 
 
+# Skills
+
+I have diverse abilities and enjoy learning new skills.
+
+```{r}
+tribble(
+  ~Type, ~Desc,
+  "Programming", "I am an expert in R, Python, and Nextflow programming and software development. I also have experience in Bash, JavaScript, HTML, CSS, Java, Groovy, Snakemake, C#, C++, Perl, and PHP.", 
+  "Software development", "I have extensive experience creating, publishing, and maintaining software using best practices such as version control (Git), parallel programming, unit testing, performance profiling, code coverage profiling, CI/CD workflows (GitHub Actions), and containerization (Docker, Singularity, Conda). I have created specialized command line utilities with novel algorithms as well as massive pipelines connecting dozens of containerized tools.",
+  "Bioinformatics", "I have extensive experience analyzing next generation sequencing data on high-performance computing clusters. I have worked with a wide variety of tools commonly used for metabarcoding, sequence alignment, genome assembly, genome annotation, variant calling, read mapping, RNA expression analysis, and hash-based sequence similarity estimation (e.g. sourmash). I use Linux daily and am comfortable administering Linux servers and efficiently evaluating new tools.", 
+  "Reproducible research", "I can create fully scripted, self-contained, and version-controlled analysis workflows that generate HTML/PDF reports containing descriptions, code, statistical analyses, and publication-ready graphics.", 
+  "Molecular biology", "I have experience with high-throughput sequencing, extracting DNA from diverse sample types, quantifying DNA, running gels, conducting PCR, and culturing microorganisms.", 
+  "Communication", "I have published highly-cited manuscripts in respected journals, written extensive online documentation, and presented my work at many conferences to a diverse audience. As a maintainer of popular open-source software, I routinely help users of all levels of experience address issues.",
+  "Collaboration", "As someone who specializes in computational techniques, I often collaborate with researchers with domain-specific expertise. My broad knowledge of software and statistical techniques allows me to identify suitable methods for a particular research question, create informative visualizations, and quickly adapt fully scripted analyses to feedback from collaborators.",
+  "Teaching/Mentoring", "I have experience teaching people of all ages a variety of subjects and have created physical and online educational resources. I have developed materials for, organized, and run several paid full day workshops at scientific conferences. I have also mentored many undergraduate research assistants working under my supervision.",
+  "Web design", "I have created and maintained websites and managed web servers.", 
+  "2D/3D graphics", "I can effectively create and edit raster graphics (Gimp), vector graphics (Inkscape), and 3D models (Blender, Meshroom, Freecad). I am also experienced in advanced digital photography techniques, including photogrammetry, focus stacking, and the creation of HDRIs.", 
+  "Field research", "I have planned, led, and helped conduct field research in natural and agricultural settings.", 
+) %>% 
+  detailed_entries(when = Type, what = Desc, with = NA_character_, where = NA_character_)
+```
+
+# Selected products
+
+I create and maintain software and educational material.
+
+```{r}
+tribble(
+  ~Type, ~Desc, ~Contribution,  ~ URL,
+  "Pipeline", 'Pathogensurveillance: A population genomics pipeline for biosurveillance.', 'Creator and lead developer', "Documentation: https://nf-co.re/pathogensurveillance",
+  "R package", 'Metacoder: manipulation and visualization of metabarcoding data', 'Creator and lead developer', "GitHub repository: https://github.com/grunwaldlab/metacoder",
+  "R package", 'Taxa: classes to store and manipulate taxonomic data in R', 'Co-creator and lead developer', "GitHub repository: https://github.com/ropensci/taxa",
+  "Python package", 'Krisp: An efficient tool for finding diagnostic regions in whole genome data.', 'Co-creator and lead developer', "GitHub repository: https://github.com/grunwaldlab/krisp",
+  "JavaScript library", 'Heat-tree: An interactive and embeddable phylogenetic tree viewer/editor', 'Creator and lead developer', "GitHub repository: https://github.com/grunwaldlab/heat-tree",
+  "Workshop", 'Analysis of Microbiome Community Data in R', 'Creator', "Website: https://grunwaldlab.GitHub.io/metacoder_documentation",
+  "Workshop", 'Reproducible Science in R', 'Co-creator', "Website: https://grunwaldlab.GitHub.io/Reproducible-science-in-R",
+) %>% 
+  detailed_entries(when = Type, what = Desc, with = Contribution, where = URL)
+``` 
+
 # Education
 
 ```{r}
@@ -45,45 +85,6 @@ tribble(
   detailed_entries(Job, Year, Institution, Where)
 ```
 
-# Skills
-
-I have diverse abilities and enjoy learning new skills.
-
-```{r}
-tribble(
-  ~Type, ~Desc,
-  "Programming", "I am an expert in R, Python, and Nextflow programming and software development. I also have experience in Bash, JavaScript, HTML, CSS, Java, Groovy, Snakemake, C#, C++, Perl, and PHP.", 
-  "Software development", "I have experience in industry standard techniques including version control (Git), parallel programming, unit testing, performance profiling, code coverage profiling, CI/CD workflows (GitHub Actions), and containerization (Docker, Singularity, Conda).",
-  "Bioinformatics", "I have extensive experience analyzing next generation sequencing data using programming languages and shell-scripting on high-performance computing clusters and personal computers. I use Linux daily and am comfortable administering Linux servers.", 
-  "Reproducible research", "I can create fully scripted, self-contained, and version-controlled analysis workflows that generate HTML/PDF reports containing descriptions, code, and publication-ready graphics.", 
-  "Molecular biology", "I have experience with high-throughput sequencing, extracting DNA from diverse sample types, quantifying DNA, running gels, conducting PCR, and culturing microorganisms.", 
-  "Communication", "I have published manuscripts in high-impact journals, written extensive online docmentation, and presented my work at many conferences to a diverse audience.",
-  "Teaching/Mentoring", "I have experience teaching people of all ages a variety of subjects and have created physical and online educational resources. I have also mentored many undergraduate research assistants working under my supervision.",
-  "Field research", "I have planned, led, and helped conduct field research in natural and agricultural settings.", 
-  "Web design", "I have created and maintained websites and managed web servers.", 
-  "2D/3D graphics", "I can effectively create and edit raster graphics (Gimp), vector graphics (Inkscape), and 3D models (Blender, Meshroom, Freecad). I am also experienced in advanced digital photography techniques, including photogrammetry, focus stacking, and the creation of HDRIs.", 
-) %>% 
-  detailed_entries(when = Type, what = Desc, with = NA_character_, where = NA_character_)
-```
-
-# Selected products
-
-I create and maintain software and educational material.
-
-```{r}
-tribble(
-  ~Type, ~Desc, ~Contribution,  ~ URL,
-  "Pipeline", 'Pathogensurveillance: A population genomics pipeline for biosurveillance.', 'Creator and lead developer', "Documentation: https://nf-co.re/pathogensurveillance",
-  "R package", 'Metacoder: manipulation and visualization of metabarcoding data', 'Creator and lead developer', "GitHub repository: https://github.com/grunwaldlab/metacoder",
-  "R package", 'Taxa: classes to store and manipulate taxonomic data in R', 'Cocreator and lead developer', "GitHub repository: https://github.com/ropensci/taxa",
-  "Python package", 'Krisp: An efficient tool for finding diagnostic regions in whole genome data.', 'Cocreator and lead developer', "GitHub repository: https://github.com/grunwaldlab/krisp",
-  "JavaScript library", 'Heat-tree: An interactive and embeddable phylogenetic tree viewer/editor', 'Creator and lead developer', "GitHub repository: https://github.com/grunwaldlab/heat-tree",
-  "Workshop", 'Analysis of Microbiome Community Data in R', 'Creator', "Website: https://grunwaldlab.GitHub.io/metacoder_documentation",
-  "Workshop", 'Reproducible Science in R', 'Cocreator', "Website: https://grunwaldlab.GitHub.io/Reproducible-science-in-R",
-) %>% 
-  detailed_entries(when = Type, what = Desc, with = Contribution, where = URL)
-``` 
-
 
 # Teaching
 
@@ -109,6 +110,7 @@ tribble(
   2018, "Analysis of microbiome data in R", "International Congress of Plant Pathology",
   2018, "Analysis of microbiome data in R", "International Phytobiomes Conference",
   2019, "Analysis of microbiome data in R", "BioMove Research Training Group, Germany",
+  2024, "Nanopore sequencing workshop", "American Phytopathological Society Plant Health",
 ) %>% 
   brief_entries(when = Year, what = Desc, with = Institution)
 ``` 
@@ -144,7 +146,7 @@ tribble(
 ``` 
 
 
-# Selected presentations
+# Selected oral presentations
 
 I have given invited and submitted talks at domestic and international scientific conferences.  
 
@@ -153,10 +155,11 @@ I have given invited and submitted talks at domestic and international scientifi
 ```{r}
 tribble(
   ~Year, ~Desc, ~ Institution,
-  2019, "Ran a workshop on the analysis and biases of metabarcoding data", " BioMove Research Training Group, Germany",
-) %>% 
+  2019, "Gave a talk on the analysis and biases of metabarcoding data", " BioMove Research Training Group, Germany",
+) %>%
   brief_entries(when = Year, what = Desc, with = Institution)
 ``` 
+
 
 ### Submitted
 
@@ -166,21 +169,6 @@ tribble(
   2017, "Metacoder: an R package for parsing, visualization, and manipulation of taxonomic data", "Center for Genome Research and Biocomputing (CGRB) spring conference",
   2017, "The effects of cultivar, production system, and nursery on the composition of the rhizosphere microbiome of cultivated rhododendrons in Oregon", "American Phytopathological Society annual meeting",
   2018, "Taxa and metacoder: R packages for parsing, visualization, and manipulation of taxonomic data", "useR! conference",
-) %>% 
-  brief_entries(when = Year, what = Desc, with = Institution)
-``` 
-
-# Service
-
-```{r}
-tribble(
-  ~Year, ~Desc, ~ Institution,
-  "2009-2017", 'Taught K-12 Students during "Discovery Days" at nine events and created educational games', "Oregon State University",
-  "2016", "Planted early blue violet at Nestucca Bay National Wildlife refuge for reintroduction of the endangered Oregon silverspot butterfly", "Institute for Applied Ecology",
-  "2020", "Planted native shrubs and trees at Powell Butte Nature Park, Portland, Oregon", "The Nature Conservancy",
-  "2022", "Planted camas at Champoeg State Heritage Area, Oregon", "Institute for Applied Ecology",
-  "2023", "Worked to restore alpine meadows at Mary's Peak, Oregon", "Institute for Applied Ecology",
-  "2024", "Monitered alpine meadow restoration progress at Mary's Peak, Oregon", "Institute for Applied Ecology and US Forest Service"
 ) %>% 
   brief_entries(when = Year, what = Desc, with = Institution)
 ``` 
@@ -196,6 +184,7 @@ tibble(bibtype = "Article",
        title = as.character(raw_refs$title),
        journaltitle = as.character(raw_refs$journal), 
        year = as.integer(raw_refs$year)) %>%
+  filter(journaltitle != "Manuscript in preparation") %>%
   arrange(desc(year)) %>%
   mutate(key = row_number()) %>%
   RefManageR::as.BibEntry() %>% 
@@ -204,3 +193,18 @@ tibble(bibtype = "Article",
 bibliography_entries(sorted_pubs_path)
 ```
 
+
+# Service
+
+```{r}
+tribble(
+  ~Year, ~Desc, ~ Institution,
+  "2009-2017", 'Taught K-12 Students during "Discovery Days" at nine events and created educational games', "Oregon State University",
+  "2016", "Planted early blue violet at Nestucca Bay National Wildlife refuge for reintroduction of the endangered Oregon silverspot butterfly", "Institute for Applied Ecology",
+  "2020", "Planted native shrubs and trees at Powell Butte Nature Park, Portland, Oregon", "The Nature Conservancy",
+  "2022", "Planted camas at Champoeg State Heritage Area, Oregon", "Institute for Applied Ecology",
+  "2023", "Worked to restore alpine meadows at Mary's Peak, Oregon", "Institute for Applied Ecology",
+  "2024", "Monitored alpine meadow restoration progress at Mary's Peak, Oregon", "Institute for Applied Ecology and US Forest Service"
+) %>% 
+  brief_entries(when = Year, what = Desc, with = Institution)
+``` 
