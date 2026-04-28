@@ -1,0 +1,21 @@
+---
+output:
+  pdf_document: default
+fontsize: 11pt
+header-includes:
+  - \pagenumbering{gobble}
+---
+
+Dear Hiring Manager,
+
+I am excited to apply for the Bioinformatics Scientist role at Boston Children’s Hospital and believe I would be an ideal candidate. I have over 15 years of experience using and developing bioinformatic software and pipelines, making me familiar with a wide range of open-source tools for next generation sequencing data analysis. My most recent project was to design, develop, and maintain a highly complex population genomics pipeline optimized to run on cloud platforms and high-performance computing clusters. The pipeline transforms massive amounts of raw sequencing data from unidentified prokaryotes/eukaryotes into polished web-based reports complete with interactive graphics and helpful explanations. Not only did I make dozens of open-source tools work together seamlessly and efficiently, but I also developed custom tools from scratch. Just for this project, I have made an R package for data analysis and reporting, a JavaScript library to create interactive web-based phylogenetic trees, and several custom Bash, R, and Python scripts. All this was done using industry best practices for software development: version control, automated testing, containerization, and CI/CD. This pipeline is now an official nf-core pipeline being used in several collaborations with other labs, completing analyses in days that would have taken months otherwise.
+
+This exemplifies my approach to research: creating tools that multiply the productivity of subject-matter experts I collaborate with. I am uniquely suited to this role due to the combination of my formal education in biology and extensive professional experience in bioinformatics, allowing me to bridge the gap between biological concepts and computational implementation. When I was studying for my undergraduate degrees in microbiology, botany, and chemistry, I worked as an undergraduate research assistant developing a pipeline for genome assembly. While earning my doctorate in molecular biology, the vast majority of my research was dedicated to bioinformatics analysis and tool development. During this time, I created several pieces of software, including the highly cited R package metacoder. As a postdoctoral researcher working in a plant pathology lab, I designed an RNA-seq experiment, developed a database for a new molecular barcode to identify oomycetes, and created a Python package for discovering diagnostic markers (in addition to the pipeline described above). I have created extensive technical documentation for all of these projects in order to maximize their usefulness to the scientific community.
+
+I am enthusiastic about sharing my expertise and have honed my ability to communicate complicated ideas to diverse audiences. I have organized and led several conference workshops on reproducible analysis and high-throughput sequencing data analysis, attended by graduate students, postdoctoral researchers, and professors. My experience with web development allowed me to easily generate online material that guides attendees through complicated data analysis in an approachable and understandable way. The reputation I gained from these workshops resulted in The University of Potsdam inviting me to teach a 2-day workshop in Germany and paying for my flight/lodging. I take great care to adapt my explanations to the knowledge and skills of the audience whether that is in formal presentations, published manuscripts, or one-on-one interactions with collaborators and coworkers. My goal is always to effectively convey objective and useful information rather than impress my audience for the sake of my career or ego.
+
+Over the years, I have become increasingly interested in applying my skills to address practical problems faced by humanity. I believe a career at Boston Children’s Hospital would let me do that. I am excited at the prospect of collaborating with others and doing my part to improve the understanding and prevention of disease. Thank you for your time and consideration.
+
+Sincerely,
+
+Zachary Foster
